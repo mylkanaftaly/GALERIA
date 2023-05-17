@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/fundo.png);
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    margin-top: 100px;
+}
+
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 100px;
+
+}
+
+
+
+main{
+    margin-top: 80px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 907px) { 
+    .navbar{
+        display: none;
+    }
+    main{
+        margin-top: 10px;
+    }
+    section{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
